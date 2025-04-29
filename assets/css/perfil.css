@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.header {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: -9px;
+  left: 3px;
+  width: 59px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+  border-radius: 50%;
+}
+
+.username {
+  margin-top: 10px;
+  background-color: lightgray;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: lightgray;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+}/*# sourceMappingURL=perfil.css.map */

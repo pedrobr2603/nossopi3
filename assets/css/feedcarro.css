@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  border: 3px solid blue;
+}
+
+.card h2 {
+  background-color: white;
+  padding: 5px;
+}
+
+.photo {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.stars {
+  font-size: 20px;
+}
+
+.feedback {
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+}/*# sourceMappingURL=feedcarro.css.map */

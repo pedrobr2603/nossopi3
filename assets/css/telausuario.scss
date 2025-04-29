@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #b3b3b3;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+.container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.user-box {
+    text-align: center;
+}
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    border: 8px solid red;
+}
+.carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+.carousel img.active {
+    display: block;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.username {
+    background-color: #e5e5e5;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.arrow {
+    font-size: 24px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.bottom-right-text {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-weight: bold;
+}

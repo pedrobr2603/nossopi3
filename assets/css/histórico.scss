@@ -1,0 +1,51 @@
+        body {
+            background-color: #aaa;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 80%;
+            background: #999;
+            padding: 20px;
+            border-radius: 10px;
+            position: relative;
+        }
+        .search-box {
+            width: 100%;
+            padding: 10px;
+            border-radius: 20px;
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            background: white;
+        }
+        .search-box input {
+            flex: 1;
+            border: none;
+            outline: none;
+            padding: 5px;
+        }
+        .history {
+            margin-top: 20px;
+            background: #bbb;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            color: gray;
+        }
+        .sidebar {
+            position: absolute;
+            right: -150px;
+            top: 0;
+            width: 150px;
+            height: 100%;
+            background: #ccc;
+            padding: 20px;
+        }
+        .sidebar div {
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
